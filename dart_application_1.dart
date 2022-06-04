@@ -1,8 +1,7 @@
-import 'package:dart_application_1/dart_application_1.dart'
-    as dart_application_1;
-
 typedef String GskFunction(String x);
+
 enum UserType { admin, client, seller }
+
 void main(List<String> arguments) {
   checkUser(UserType user) {
     //condition?if true:if false
