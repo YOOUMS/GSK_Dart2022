@@ -75,9 +75,8 @@ if the passed user is seller print hello seller, you can sell your products here
   int multiply([int x = 1, int? y]) {
     if (y == null) {
       return x * 1;
-    } else {
-      return x * y;
     }
+    return x * y;
   }
 
   print(multiply(5, 6));
